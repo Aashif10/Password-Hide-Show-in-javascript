@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: gray;
+
+    padding: 50px;
+}
+
+.container input {
+    font-weight: 700;
+    font-size: 20px;
+    outline: none;
+
+}
+
+i {
+    position: relative;
+    right: 10%;
+    cursor: pointer;
+
+}
+
+input::placeholder {
+    
+    font-size: 15px;
+    position: relative;
+    left: 3%;    
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
